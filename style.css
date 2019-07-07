@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(257, 40%, 49%);
+  --primary-white: #fff;
+  --font-family-one: 'Open Sans', sans-serif;
+  --font-family-two: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: scroll;
+  background-color: var(--primary-color);
+}
+
+.header {
+  padding: 5% 10%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header img {
+  width: 50%;
+  height: auto;
+}
+
+.main {
+  /* margin-top: 70px; */
+  /* min-height: 100vh; */
+  padding-top: 25%;
+  background-image: url("./images/bg-mobile.svg");
+  background-size: 100% 55%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: border-box;
+}
+
+.image-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  width: 80%;
+  height: auto;
+}
+
+.text-content {
+  margin-top: 15%;
+  padding: 5% 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  color: var(--primary-white);
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-family: var(--font-family-two);
+}
+
+.description {
+  margin: 0.5rem 0 1rem 0;
+  font-size: 1rem;
+  color: var(--primary-white);
+  line-height: 1.5;
+  font-family: var(--font-family-one); 
+}
+
+.register-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-white);
+  border-radius: 20px;
+  width: 70%;
+  max-width: 200px;
+  font-size: 1.1rem;
+  background-color: var(--primary-white);
+  color: var(--primary-color);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  display: block;
+  margin: 2rem 0.5rem;
+  width: 30px;
+  height: 30px;
+  border:1px solid var(--primary-white);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-white);
+}
